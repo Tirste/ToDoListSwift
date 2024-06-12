@@ -3,7 +3,36 @@
 ## Opis: 
 Projekt aplikacji przygotowany na zajęcia Zaawansowane programowanie SWIFT.
 Prosta aplikacja ToDoList umożliwiająca utworzenie kategorii, wewnątrz których można dodawać zadania np. lista zakupow. Kategorie oraz zadania mozna edytowac.
+
 Autor: Jarosław Królikowski (I2N grupa 2.2)
+
+## Wymagania
+
+### Projekt powinien posiadać:
+
+1. Minimum trzy widoki, po których możliwa jest nawigacja;
+
+       Projekt posiada 6 widoków
+   
+2. Pobierać dane od użytkownika i sprawdzać ich poprawność;
+
+        Dane pobierane są w tytule, akceptowane są tylko litery - cyfry, znaki specjalne nie
+
+3) Obsługiwać minimum trzy gesty, gesty już zaimplementowane nie są liczone (np. akcja przycisku);
+
+        Zaimplementowano gest tapnięcia (oznaczenie, że zadanie jest gotowe), przytrzymania (menu kontekstowe), przesunięcia w lewo i prawo (edycja lub kasowanie)
+
+4) Zawierać pięć różnych kontrolek;
+
+        Niestety nie ma 5 różnych kontrolek
+
+5) Zawierać wyświetlenie grafiki;
+
+        Grafika jest wyświetlana w głównym widoku
+   
+6) Korzystać z Core Data (min. 2 powiązane encje).
+
+       Utworzono 2 encje które są powiązane - many to one
 
 ## Encje:
 ### Task
@@ -34,19 +63,9 @@ Autor: Jarosław Królikowski (I2N grupa 2.2)
 6. TaskListView.swift - widok wszystkich zadan dla wybranej kategorii
 
 
-1)     posiadać minimum trzy widoki, po których możliwa jest nawigacja;
-
-2)     pobierać dane od użytkownika i sprawdzać ich poprawność;
-
-3)     obsługiwać minimum trzy gesty, gesty już zaimplementowane nie są liczone (np. akcja przycisku);
-
-4)     zawierać pięć różnych kontrolek;
-
-5)     zawierać wyświetlenie grafiki;
-
-6)     korzystać z Core Data (min. 2 powiązane encje).
-
-
-# Aplikacja w menu (ikona aplikacji):
+## Aplikacja w menu (ikona aplikacji):
 ![image](https://github.com/Tirste/ToDoListSwift/assets/21289776/56cb1998-588b-4458-80a2-81e7afaadbc1)
 
+## Prezentacja dzialania
+![ezgif-5-59cee014fc](https://github.com/Tirste/ToDoListSwift/assets/21289776/bd706801-a765-475c-a554-1969ee046be0)
+![ezgif-5-ca30f7f140](https://github.com/Tirste/ToDoListSwift/assets/21289776/3b1ebfc5-f989-4444-a581-2f0c02c6e947)
